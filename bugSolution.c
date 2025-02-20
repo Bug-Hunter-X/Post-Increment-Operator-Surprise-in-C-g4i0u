@@ -1,0 +1,1 @@
+int main() { int x = 5; int y = x++; /* Store the value of x BEFORE incrementing */ printf("%d", y); /* Print the original value */ printf("%d", x); /* Print the incremented value */ return 0; }
