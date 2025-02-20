@@ -1,0 +1,2 @@
+# Post-Increment Operator Surprise in C
+This code demonstrates a subtle behavior of the post-increment operator in C that can be unexpected for beginners. The seemingly straightforward use of `x++` within `printf` leads to a result different from what might be initially assumed. The bug lies in the understanding of how the post-increment operator interacts with the `printf` function's evaluation order.
